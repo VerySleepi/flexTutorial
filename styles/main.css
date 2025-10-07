@@ -3,8 +3,44 @@ body{
     font-family: helvetica, arial, sans-serif;
 	font-size:1em;
 }
+header{
+    background-color: #264838;	
+    border-radius: 5px;
+}
 h1, h2{
     font-family: 'Raleway', sans-serif;
+}
+.container{
+    width:100%;	
+    margin:auto;
+    max-width: 1200px;
+    min-width: 600px;
+}
+
+nav ul{	
+    padding-left:0;
+}
+nav ul li{	
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+    border-left:1px solid #7E8AA2;
+}
+nav li:first-child{
+    border-left:none;	
+}
+
+nav li a{
+    text-decoration: none;	
+    color: #fff;	
+}
+
+nav li a:hover{
+    color: #7E8AA2;	
+}
+
+nav li a:current{
+    color:#7E8AA2;
 }
 
 .quals{
