@@ -12,19 +12,26 @@ header{
 main{
     display:flex;
     gap: 15px;
+    margin: 5px;
+    padding: 1%;
+    border: 3pt dotted #ff0000;
 }
 section{
     padding:0 10px 10px 0;
+    flex: 1 1 auto;
 }
 .sidebar{
     padding:20px 40px;	
     border:1px solid #ccc;
     border-radius:8px;
     margin-top: 70px;
+    flex: 0 0 200px;
 }
+
 h1, h2{
     font-family: 'Raleway', sans-serif;
 }
+
 .container{
     width:100%;	
     margin:auto;
@@ -32,8 +39,14 @@ h1, h2{
     min-width: 600px;
 }
 
+.resize-img{
+    height: 100%;
+    width: 100%;
+}
+
 nav ul{	
     padding-left:0;
+    list-style: none;
 }
 nav ul li{	
     display:inline;
@@ -51,10 +64,11 @@ nav li a{
 nav li a:hover{
     color: #7E8AA2;	
 }
+nav li a:root
 
 header h1 a{
     color:#fff;
-    text-decoration: none;
+    text-decoration:dotted;
 }
 header h1 a:hover{
     text-decoration: underline;
@@ -73,4 +87,12 @@ header h1 a:hover{
 .quals td{
     border-bottom:1px solid #ccc;
     padding:5px;
+}
+
+footer{
+    border-top:1px solid #ccc;
+    margin:20px 10px 10px 0;
+    font-size:0.8em;
+    text-align:center;
+    font-style:italic;
 }
