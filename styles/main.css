@@ -6,6 +6,21 @@ body{
 header{
     background-color: #264838;	
     border-radius: 5px;
+    display:flex;
+    justify-content: space-between;
+}
+main{
+    display:flex;
+    gap: 15px;
+}
+section{
+    padding:0 10px 10px 0;
+}
+.sidebar{
+    padding:20px 40px;	
+    border:1px solid #ccc;
+    border-radius:8px;
+    margin-top: 70px;
 }
 h1, h2{
     font-family: 'Raleway', sans-serif;
@@ -29,18 +44,23 @@ nav ul li{
 nav li:first-child{
     border-left:none;	
 }
-
 nav li a{
     text-decoration: none;	
     color: #fff;	
 }
-
 nav li a:hover{
     color: #7E8AA2;	
 }
 
-nav li a:current{
-    color:#7E8AA2;
+header h1 a{
+    color:#fff;
+    text-decoration: none;
+}
+header h1 a:hover{
+    text-decoration: underline;
+}
+#logo{
+    padding:10px;
 }
 
 .quals{
