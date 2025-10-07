@@ -6,3 +6,15 @@ body{
 h1, h2{
     font-family: 'Raleway', sans-serif;
 }
+
+.quals{
+    border-collapse: collapse;
+}
+.quals th{
+    border-bottom:3px solid #ccc;
+    padding:5px;
+}
+.quals td{
+    border-bottom:1px solid #ccc;
+    padding:5px;
+}
