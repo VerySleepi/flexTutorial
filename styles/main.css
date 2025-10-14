@@ -17,7 +17,7 @@ main{
     border: 3pt dotted #ff0000;
 }
 section{
-    padding:0 10px 10px 0;
+    padding:10px 10px 10px 10px;
     flex: 1 1 50%;
 }
 .sidebar{
