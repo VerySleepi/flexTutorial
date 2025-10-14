@@ -74,7 +74,7 @@ ul{
     list-style:none;
 }
 ul li{
-    display:;
+    display:flex;
     align-items: center;
     padding: 5px 0;
 }
